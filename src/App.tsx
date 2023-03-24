@@ -38,9 +38,9 @@ function App() {
                 style={{ maxHeight: '100px', margin: "0" }}
                 navbarScroll
               >
-                <Link to={"/"}><Nav.Item>Home</Nav.Item></Link>
-                <Link to={"/search"}><Nav.Item>Seach Journeys</Nav.Item></Link>
-                <Link to={"/about"}><Nav.Item>About</Nav.Item></Link>
+                <Link to={"/"} className="nav-item"><Nav.Item>Home</Nav.Item></Link>
+                <Link to={"/search"} className="nav-item" ><Nav.Item>Seach Journeys</Nav.Item></Link>
+                <Link to={"/about"} className="nav-item" ><Nav.Item>About</Nav.Item></Link>
               </Nav>
         </Offcanvas.Body>
       </Offcanvas>
