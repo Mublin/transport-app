@@ -11,8 +11,8 @@ export default function HomeScreen() {
   return (
     <div>
         <Card>
-      <Card.Body style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", height: "80vh", fontWeight: "bolder"}}>
-        <Card.Title>Bello Travels</Card.Title>
+      <Card.Body style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", minHeight: "80vh", fontWeight: "bolder"}}>
+        <Card.Title style={{borderBottom: "1px solid blue"}}>Bello Travels</Card.Title>
         <Card.Text style={{maxWidth: "500px", margin: "0 2rem", textAlign: "center", lineHeight: "1.5rem", fontWeight: "bold"}}>
         Welcome to our Bello Travels, where the world is your playground! We offer a one-stop-shop for all your travel needs, whether you're looking to book a car travel or even an adventure tour. With our easy-to-use platform and user-friendly interface, planning your dream vacation has never been easier.
 
