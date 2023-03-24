@@ -57,7 +57,9 @@ export default function BookingScreen() {
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" required onChange={(e: ChangeEvent<HTMLInputElement>)=> setEmail(e.target.value)} />
       </Form.Group>
-      {email.length > 5 && name.length > 5 &&  <PaystackButton {...componentProps as { 
+      
+    </Form> : <></> : <></> } 
+    {email.length > 4 && name.length > 3 &&  <PaystackButton {...componentProps as { 
             text: string;
             onSuccess: callback;
             onClose: () => void;
@@ -66,7 +68,6 @@ export default function BookingScreen() {
             amount: number;
             publicKey: string;
         }} />}
-    </Form> : <></> : <></> } 
     </div>
   )
 }
