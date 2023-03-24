@@ -17,7 +17,7 @@ export default function JourneyScreen() {
             <div style={{border: "2px solid black", cursor: "pointer"}} key={move._id} onClick={()=>clickHandler(move)}>
                     <div>
                         <p>Organization: {move.brand}</p>
-                        <p>Travel: {move.carType}</p>
+                        <p>Vehicle: {move.carType}</p>
                         <p>Price: NGN{move.Price}</p>
                         <p>Take-off Time: {move.TakeOff}</p>
                     </div>
